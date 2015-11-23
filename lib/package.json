@@ -1,7 +1,7 @@
 {
   "name": "tonal.pitch",
-  "version": "0.0.6",
-  "description": "The javascript music notation",
+  "version": "0.0.2",
+  "description": "Music notes and intervals manipulation",
   "main": "index.js",
   "scripts": {
     "prepublish": "cp ../README.md ."
