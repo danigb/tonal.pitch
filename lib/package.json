@@ -1,0 +1,29 @@
+{
+  "name": "tonal.pitch",
+  "version": "0.0.6",
+  "description": "The javascript music notation",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "cp ../README.md ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/tonal.pitch.git"
+  },
+  "keywords": [
+    "music",
+    "notation",
+    "parser",
+    "tonal"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/tonal.pitch/issues"
+  },
+  "homepage": "https://github.com/danigb/tonal.pitch#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
