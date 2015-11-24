@@ -19,16 +19,20 @@ pitch('blah') // => null
 
 This is a low level library part of [tonal](https://www.npmjs.com/package/tonal)
 
+## Features
+
+- Pitch parse and build
+- Calculate pitch height
+- Simplify pitches
+- Pitch operations
+
 ## Install
 
 Only via npm: `npm i --save tonal.pitch`
 
 ## Usage
 
-#### Valid pitches
-
-```js
-```
+Currently only [generated documentation](https://github.com/danigb/tonal.pitch/blob/master/API.md) is available.
 
 ## License
 

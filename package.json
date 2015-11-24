@@ -35,5 +35,6 @@
     "vows": "^0.8.x"
   },
   "dependencies": {
+    "tonal.notation": "0.0.x"
   }
 }

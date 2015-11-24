@@ -1,5 +1,6 @@
 CHANGELOG
 
+[0.0.4] rename coord to parse (5.8kb)
 [0.0.3] Rename toCoord to coord and fromCoord to str (5.8kb)
 [0.0.2] Operation is curried by default
 [0.0.1] First version

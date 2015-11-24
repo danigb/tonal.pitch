@@ -1,8 +1,8 @@
 var vows = require('vows')
 var assert = require('assert')
-var parse = require('..').coord
+var parse = require('..').parse
 
-vows.describe('pitch.coord').addBatch({
+vows.describe('pitch.parse').addBatch({
   'notes and intervals': function () {
     assert.deepEqual(parse('D'), [2])
     assert.deepEqual(parse('D2'), [2, 1, null])

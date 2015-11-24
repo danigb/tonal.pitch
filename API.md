@@ -1,39 +1,23 @@
 ## `pitch`
 
-In music.kit a pitch it's a note, an interval or a pitch class. It allows us
-to work with this elements in an uniform way.
+Get a pitch from a string. In tonal a pitch it's a note, an interval or a
+pitch class. It allows us to work with this elements in an uniform way.
 
-All the function in this module are valid for notes, or intervals
+### Parameters
 
+* `source` **`String`** the string
 
 
 ### Examples
 
 ```js
 var pitch = require('music.pitch')
-pitch.height('C2') // => 24
-pitch.height('5P') // => 7
+pitch('c2') // => 'C2'
+pitch('2') // => '2M'
+pitch('blah') // => null
 ```
 
-
-
-## `pitch.coord`
-
-Convert a note or interval string to a [pitch in coord notation]()
-
-### Parameters
-
-* `pitch` **`String`** the note or interval to parse
-
-
-### Examples
-
-```js
-pitch.coord('C2') // => [0, 2, null]
-pitch.coord('5P') // => [1, 0]
-```
-
-Returns `Array` the pitch in array notation
+Returns `String` the pitch or null if not a valid pitch
 
 
 ## `pitch.height`
@@ -51,32 +35,30 @@ Returns `Integer` the height of -1 if not valid note
 
 ## `pitch.operation`
 
-Decorate a function to work with pitches in coord notation
+Decorate a function to work with pitches in array notation
 
 
 
 
 
 
-## `pitch.pitch`
+## `pitch.parse`
 
-Get a pitch from a string
+Convert a note or interval string to a [pitch in coord notation]()
 
 ### Parameters
 
-* `source` **`String`** the string
+* `pitch` **`String`** the note or interval to parse
 
 
 ### Examples
 
 ```js
-var pitch = require('music.pitch')
-pitch('c2') // => 'C2'
-pitch('2') // => '2M'
-pitch('blah') // => null
+pitch.parse('C2') // => [0, 2, null]
+pitch.parse('5P') // => [1, 0]
 ```
 
-Returns `String` the pitch or null if not a valid pitch
+Returns `Array` the pitch in array notation
 
 
 ## `pitch.simplify`

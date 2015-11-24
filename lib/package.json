@@ -1,7 +1,7 @@
 {
   "name": "tonal.pitch",
-  "version": "0.0.3",
-  "description": "Work with intervals and notes in an uniform way",
+  "version": "0.0.4",
+  "description": "Pitch: intervals and notes with same interface",
   "main": "index.js",
   "scripts": {
   },
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/danigb/tonal.pitch#readme",
   "dependencies": {
-    "tonal.notation": "file:../../notation/lib"
+    "tonal.notation": "0.0.x"
   }
 }
