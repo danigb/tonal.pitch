@@ -1,10 +1,9 @@
 {
   "name": "tonal.pitch",
-  "version": "0.0.2",
-  "description": "Music notes and intervals manipulation",
+  "version": "0.0.3",
+  "description": "Work with intervals and notes in an uniform way",
   "main": "index.js",
   "scripts": {
-    "prepublish": "cp ../README.md ."
   },
   "repository": {
     "type": "git",
@@ -12,8 +11,8 @@
   },
   "keywords": [
     "music",
-    "notation",
-    "parser",
+    "theory",
+    "pitch",
     "tonal"
   ],
   "author": "danigb",
@@ -22,8 +21,7 @@
     "url": "https://github.com/danigb/tonal.pitch/issues"
   },
   "homepage": "https://github.com/danigb/tonal.pitch#readme",
-  "devDependencies": {
-  },
   "dependencies": {
+    "tonal.notation": "file:../../notation/lib"
   }
 }
